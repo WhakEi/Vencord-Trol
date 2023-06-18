@@ -7,23 +7,25 @@ The funniest Discord client mod
 ## Installing / Uninstalling
 
 **WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS and Distro.
-**Sidenote:** You will need node.js
+**Sidenote:** You will need node.js \n
+
 Install pnpm: 
 :exclamation: This next command may need to be run as admin/root depending on your system, and you may need to close and
 reopen your terminal for pnpm to be in your PATH. 
-npm i -g pnpm
+npm i -g pnpm \n
+
  :exclamation: IMPORTANT Make sure you aren’t using an admin/root terminal from here onwards. It will mess up your Discord
-Vencord instance and you will most likely have to reinstall. 
+Vencord instance and you will most likely have to reinstall. \n
 Clone Vencord: 
 git clone https://github.com/WhakEi/Vencord-Trol
 cd Vencord-Trol
-
+\n
 Install dependencies: 
 pnpm install --frozen-lockfile
-
+\n
 Build Vencord: 
 pnpm build
-
+\n
 Inject vencord into your client: 
 pnpm inject
 _Note:_ If you already have Vencord, click uninstall then reinstall
