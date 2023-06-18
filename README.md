@@ -6,8 +6,8 @@ The funniest Discord client mod
 
 ## Installing / Uninstalling
 
-**WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS and Distro.
-**Sidenote:** You will need node.js \n
+**WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS or Distro.
+**Sidenote:** You will need node.js.
 
 Install `pnpm`:
 
