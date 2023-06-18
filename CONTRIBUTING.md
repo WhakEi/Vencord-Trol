@@ -1,6 +1,6 @@
 # Contribution Guide
 
-First of all, thank you for contributing! :3
+First of all, thank you for contributing!
 
 To ensure your contribution is robust, please follow the below guide!
 
