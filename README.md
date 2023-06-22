@@ -3,10 +3,17 @@
 
 The funniest Discord client mod
 
+## Table of Contents
+1. [Installing on Linux](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-linux)
+2. [Installing on Windows](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-windows)
+3. [Installing on Chrome/Chromium](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-google-chrome-microsoft-edge-opera-or-any-chromium-browser)
+4. [Installing on Firefox](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-firefox)
+
+**WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS or Distro.
 
 ## Installing on Linux
 
-**WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS or Distro.
+
 **Sidenote:** You will need node.js.
 
 Install `pnpm`:
