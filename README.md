@@ -1,4 +1,4 @@
-# Modded Vencord
+# Vencord-Trol
 
 
 The funniest Discord client mod
