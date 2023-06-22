@@ -4,7 +4,7 @@
 The funniest Discord client mod
 
 
-## Installing / Uninstalling
+## Installing on Linux
 
 **WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS or Distro.
 **Sidenote:** You will need node.js.
@@ -30,11 +30,11 @@ Install dependencies:
 ```shell
 pnpm install --frozen-lockfile
 ```
-Build Vencord: 
+Build Vencord-Trol: 
 ```shell
 pnpm build
 ```
-Inject vencord into your client: 
+Inject vencord-trol into your client: 
 ```shell
 pnpm inject
 ```
@@ -56,13 +56,31 @@ _These instructions include how to install git bash and Node.js, if you have alr
 _Note:_ If you already have Vencord, click uninstall then reinstall
 Then fully close Discord from your taskbar or task manager, and restart it. Vencord should be injected - you can check this by looking for the Vencord section in Discord settings.
 
+## Installing on Google Chrome, Microsoft Edge, Opera, or any Chromium browser
+*This extension is not Vencord, it is installed alongside Vencord* 
+
+1. [Download the CRX file from here](https://cdn.discordapp.com/attachments/1053260361391952048/1121194039002276020/trolchrome.crx)
+2. Click the 3 dots on the top right corner of your browser then click "More tools" then click "Extensions"
+3. In the top right corner, turn on "Developer Mode"
+4. Drag and Drop the file from your File Explorer
+5. Click "Add Extension"
+
+## Installing on Firefox
+*As mentioned earlier, this is not Vencord, install Vencord seperately. Another thing I would like to add is that the extension deletes itself whenever you restart Firefox, I still have to sign the extension for it to be installed permanently*
+
+1. [Download the ZIP file and extract it](https://cdn.discordapp.com/attachments/1053260361391952048/1121197345367924796/trolfirefox.zip)
+2. Open a new tab and go to `about:debugging`
+3. Click "This Firefox"
+4. Click "Load Temporary Add-on..."
+5. Go to your unzipped folder and select `manifest.json`
+
 ## Disclaimer
 
 Discord is trademark of Discord Inc. and solely mentioned for the sake of descriptivity.
 Mention of it does not imply any affiliation with or endorsement by Discord Inc.
 
 <details>
-<summary>Using Vencord violates Discord's terms of service</summary>
+<summary>Using Vencord-Trol violates Discord's terms of service</summary>
 
 Client modifications are against Discord’s Terms of Service.
 
