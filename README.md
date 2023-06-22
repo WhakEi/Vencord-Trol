@@ -6,10 +6,11 @@ The funniest Discord client mod
 ## Table of Contents
 1. [Installing on Linux](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-linux)
 2. [Installing on Windows](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-windows)
-3. [Installing on Chrome/Chromium](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-google-chrome-microsoft-edge-opera-or-any-chromium-browser)
-4. [Installing on Firefox](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-firefox)
+3. [Installing on macOS](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-macos)
+4. [Installing on Chrome/Chromium](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-google-chrome-microsoft-edge-opera-or-any-chromium-browser)
+5. [Installing on Firefox](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-firefox)
 
-**WARNING:** This has not been tested on Windows, so far it's only been verified to work in ubuntu, instructions may vary depending on OS or Distro.
+**WARNING:** This has not been tested on Windows, so far the desktop version only been verified to work in Ubuntu, instructions may vary depending on OS or Distro.
 
 ## Installing on Linux
 
@@ -62,6 +63,10 @@ _These instructions include how to install git bash and Node.js, if you have alr
 
 _Note:_ If you already have Vencord, click uninstall then reinstall
 Then fully close Discord from your taskbar or task manager, and restart it. Vencord should be injected - you can check this by looking for the Vencord section in Discord settings.
+
+## Installing on MacOS
+
+idk go figure it out yourself, ask chatgpt or something
 
 ## Installing on Google Chrome, Microsoft Edge, Opera, or any Chromium browser
 *This extension is not Vencord, it is installed alongside Vencord* 
