@@ -38,6 +38,21 @@ Inject vencord into your client:
 ```shell
 pnpm inject
 ```
+
+## Installing on Windows
+_These instructions include how to install git bash and Node.js, if you have already done this, skip over to step 4_
+
+ 1. [Download node.js from here](https://nodejs.org/en/download/)
+ 2. [Download Git Bash from here](https://git-scm.com/downloads)
+ 3. Install both of them
+ 4. Open Windows Powershell
+ 5. Do `git clone https://github.com/WhakEi/Vencord-Trol`
+ 6. Then do `cd Vencord-Trol`
+ 7. Install pnpm `npm install pnpm`
+ 8. Install dependencies `pnpm install --frozen-lockfile`
+ 9. Build Vencord-Trol `pnpm build`
+ 10. Run the installer `pnpm inject`
+
 _Note:_ If you already have Vencord, click uninstall then reinstall
 Then fully close Discord from your taskbar or task manager, and restart it. Vencord should be injected - you can check this by looking for the Vencord section in Discord settings.
 
