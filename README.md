@@ -4,11 +4,11 @@
 The funniest Discord client mod
 
 ## Table of Contents
-1. [Installing on Linux](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-linux)
-2. [Installing on Windows](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-windows)
-3. [Installing on macOS](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-macos)
-4. [Installing on Chrome/Chromium](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-google-chrome-microsoft-edge-opera-or-any-chromium-browser)
-5. [Installing on Firefox](https://github.com/WhakEi/Vencord-Trol/edit/main/README.md#installing-on-firefox)
+1. [Installing on Linux](https://github.com/WhakEi/Vencord-Trol/tree/main#installing-on-linux)
+2. [Installing on Windows](https://github.com/WhakEi/Vencord-Trol/tree/main#installing-on-windows)
+3. [Installing on macOS](https://github.com/WhakEi/Vencord-Trol/tree/main#installing-on-macos)
+4. [Installing on Chrome/Chromium](https://github.com/WhakEi/Vencord-Trol/tree/main#installing-on-google-chrome-microsoft-edge-opera-or-any-chromium-browser)
+5. [Installing on Firefox](https://github.com/WhakEi/Vencord-Trol/tree/main#installing-on-firefox)
 
 **WARNING:** This has not been tested on Windows, so far the desktop version only been verified to work in Ubuntu, instructions may vary depending on OS or Distro.
 
