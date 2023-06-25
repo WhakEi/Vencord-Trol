@@ -20,7 +20,6 @@
 import { openNotificationLogModal } from "@api/Notifications/notificationLog";
 import { Settings, useSettings } from "@api/Settings";
 import { classNameFactory } from "@api/Styles";
-import DonateButton from "@components/DonateButton";
 import { ErrorCard } from "@components/ErrorCard";
 import { Margins } from "@utils/margins";
 import { identity } from "@utils/misc";
@@ -32,9 +31,6 @@ import { SettingsTab, wrapTab } from "./shared";
 
 const cl = classNameFactory("vc-settings-");
 
-const DEFAULT_DONATE_IMAGE = "https://cdn.discordapp.com/emojis/1026533090627174460.png";
-const SHIGGY_DONATE_IMAGE = "https://media.discordapp.net/stickers/1039992459209490513.png";
-
 type KeysOfType<Object, Type> = {
     [K in keyof Object]: Object[K] extends Type ? K : never;
 }[keyof Object];
@@ -44,8 +40,6 @@ function VencordSettings() {
         fallbackValue: "Loading..."
     });
     const settings = useSettings();
-
-    const donateImage = React.useMemo(() => Math.random() > 0.5 ? DEFAULT_DONATE_IMAGE : SHIGGY_DONATE_IMAGE, []);
 
     const isWindows = navigator.platform.toLowerCase().startsWith("win");
     const isMac = navigator.platform.toLowerCase().startsWith("mac");
@@ -99,7 +93,6 @@ function VencordSettings() {
 
     return (
         <SettingsTab title="Vencord Settings">
-            <DonateCard image={donateImage} />
             <Forms.FormSection title="Quick Actions">
                 <Card className={cl("quick-actions-card")}>
                     <React.Fragment>
@@ -238,29 +231,6 @@ function NotificationSection({ settings }: { settings: typeof Settings["notifica
                 Open Notification Log
             </Button>
         </>
-    );
-}
-
-interface DonateCardProps {
-    image: string;
-}
-
-function DonateCard({ image }: DonateCardProps) {
-    return (
-        <Card className={cl("card", "donate")}>
-            <div>
-                <Forms.FormTitle tag="h5">Support the Project</Forms.FormTitle>
-                <Forms.FormText>Please consider supporting the development of Vencord by donating!</Forms.FormText>
-                <DonateButton style={{ transform: "translateX(-1em)" }} />
-            </div>
-            <img
-                role="presentation"
-                src={image}
-                alt=""
-                height={128}
-                style={{ marginLeft: "auto", transform: image === DEFAULT_DONATE_IMAGE ? "rotate(10deg)" : "" }}
-            />
-        </Card>
     );
 }
 
