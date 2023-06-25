@@ -3,6 +3,8 @@
 
 The funniest Discord client mod
 
+Some features have still not completed development so if you find a bug that isn't present on Vencord please create an issue in the issues tab and let us know
+
 ## Table of Contents
 1. [Installing on Linux](https://github.com/WhakEi/Vencord-Trol/#installing-on-linux)
 2. [Installing on Windows](https://github.com/WhakEi/Vencord-Trol/#installing-on-windows)
