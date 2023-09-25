@@ -265,7 +265,7 @@ export const Devs = /* #__PURE__*/ Object.freeze({
     },
     Dziurwa: {
         name: "Dziurwa",
-        id: 787017887877169173n
+        id: 1001086404203389018n
     },
     AutumnVN: {
         name: "AutumnVN",
@@ -329,11 +329,51 @@ export const Devs = /* #__PURE__*/ Object.freeze({
     },
     rad: {
         name: "rad",
-        id: 113027285765885952n
+        id: 610945092504780823n
+    },
+    AndrewDLO: {
+        name: "Andrew-DLO",
+        id: 434135504792059917n
     },
     HypedDomi: {
         name: "HypedDomi",
         id: 354191516979429376n
+    },
+    Rini: {
+        name: "Rini",
+        id: 1079479184478441643n
+    },
+    castdrian: {
+        name: "castdrian",
+        id: 224617799434108928n
+    },
+    Arrow: {
+        name: "arrow",
+        id: 958158495302176778n
+    },
+    bb010g: {
+        name: "bb010g",
+        id: 72791153467990016n,
+    },
+    Lumap: {
+        name: "lumap",
+        id: 635383782576357407n
+    },
+    Dolfies: {
+        name: "Dolfies",
+        id: 852892297661906993n,
+    },
+    RuukuLada: {
+        name: "RuukuLada",
+        id: 119705748346241027n,
+    },
+    blahajZip: {
+        name: "blahaj.zip",
+        id: 683954422241427471n,
+    },
+    archeruwu: {
+        name: "archer_uwu",
+        id: 160068695383736320n
     }
 } satisfies Record<string, Dev>);
 
@@ -345,3 +385,5 @@ export const DevsById = /* #__PURE__*/ (() =>
             .map(([_, v]) => [v.id, v] as const)
     ))
 )() as Record<string, Dev>;
+
+export const IsFirefox = IS_EXTENSION && navigator.userAgent.toLowerCase().includes("firefox");
